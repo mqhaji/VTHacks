@@ -10,24 +10,26 @@
 </h3>
 
 <p align = "center" >
-  names
+  Team Members: Musa Haji, Emil Baez, Sammy Fischer, Krisanny Salazar
 </p>
 
 ### Description:
 blah blah blah
 
-### How to use:
-blah blah blah 
+
+> [!NOTE]
+> How to use
+
 
 ### _What makes our project standout_
-[x] we have this
-[x] we have this
-[x] and this
+- [x] we have this
+- [x] we have this
+- [x] and this
 
+### _What was our motivation?_ 
 
-
-What was our motivation? 
 Why did we build this project?
+
 What problem does it solve? 
 What did you learn?
 
