@@ -1,19 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Python Script Runner</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./templates/styles.css">
+    <title>VTHACKS</title>
 </head>
 <body>
-    <h1>Run Python Script</h1>
-    <form id="python-form">
-        <input type="text" id="user-input" placeholder="Enter your message">
-        <button type="button" onclick="runPythonScript()">Submit</button>
-    </form>
-    <div id="output"></div>
+    <div class="main">
+        <div class="left">
+            <form id="python-form">
+                <p>Add text below:</p>
+                <input type="text" id="textInput" placeholder="Enter Username">
+                <button type="button" onclick="runPythonScript()">Submit</button>
+            </form>
+            <div class="upload">
+                <img src="./images/deer.png">
+                <!--<button>Upload</button>-->
+            </div>
+        </div>
+
+        <div class="right">
+            <div id="output"></div>
+        </div>
+    </div>
 
     <script>
         function runPythonScript() {
-            var userInput = document.getElementById('user-input').value;
+            var userInput = document.getElementById('textInput').value;
             var formData = new FormData();
             formData.append('user_input', userInput);
 
