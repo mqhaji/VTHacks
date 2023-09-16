@@ -2,6 +2,9 @@
   :woman_technologist:VTHacks:technologist:
 </h1>
 
+<p align = "center"> 
+ <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/27b18358-f205-4ebd-b87b-cfcd2b0065b7" width="600" height="300"> 
+</p>
 <h2 style align = "center";"> 
   :rocket:Spectrabot:rocket:
 </h3>
@@ -43,14 +46,16 @@ The lack of workforce diversity in the technology sector of the U.S.
 |Benefits Listed|Ommitting Benefits|
 
 ### _What makes our project standout_
-A lot of people don't know how to fully utilize gpt so our project gives them *questionnaires(details/description) to help build the right prompt that specifically solve the problem that were focusing on.
+A lot of people don't know how to utilize ChatGPT to the fullest.
+Spectrabot 
+gives them *questionnaires(details/description) to help build the right prompt that specifically solve the problem that were focusing on.
 
 
 ### _What did we learn?_
 ```diff
-@@ Front-End Development @@
+@@ API @@
   - jkewn
-@@ jnfkewnkfjw @@
+@@ Front-End Devlopment @@
   - ejnfkwefew
 @@ njkewnf @@
   - fuweijnfew
@@ -58,5 +63,7 @@ A lot of people don't know how to fully utilize gpt so our project gives them *q
 
 ##### CREDITS
 [Spectrabot Icon](https://www.vecteezy.com/free-vector/robot)
+[SpaceVector](https://www.vecteezy.com/free-vector/space)
+
 
 
