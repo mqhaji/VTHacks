@@ -59,8 +59,9 @@ def new_message():
 
     print("Response received!")  # This will display once the API responds
 
+    reply = chat.choices[0].message.content
+
+    print(f"ChatGPT: {reply}")
+
 
 new_message()
-
-reply = chat.choices[0].message.content
-print(f"ChatGPT: {reply}")
