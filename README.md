@@ -6,6 +6,9 @@
   :woman_technologist:Spectrabot:technologist:
 </h3>
 <h3 style align = "center";"> 
+  ![vecteezy_robot-chatbot-icon-sign_4996790](https://github.com/mqhaji/VTHacks/assets/140469791/23e28b69-1035-4ffc-aa4b-ea1dbcd867b2)
+</h3>
+<h3 style align = "center";"> 
   TEAM NAME
 </h3>
 
