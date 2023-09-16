@@ -1,5 +1,18 @@
 html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
     background-image: url(beach.jpg);
+    
+}
+
+.header {
+    background-color: rgb(17, 17, 117);
+    color: beige;
+    overflow: hidden; /*Use to prevent overflow inside a 
+                        div; in this case I just need it to keep 
+                        the top bar in place*/
+    text-align: center;
 }
 
 .main {
@@ -15,7 +28,6 @@ html, body{
     justify-content: space-around;
     align-items: center;
 }
-
 .main .left{
     height: 32em;
     width: 25em;
@@ -34,14 +46,17 @@ html, body{
     width: 50em;
     /*background-color: purple;*/
 }
-
 .main .left #python-form {
-    padding: 4em;
+    padding: 1em;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     font-size: larger;
     color: #888888;
+}
+.main .left #python-form #question{
+    margin-top: 0px;
+    margin-bottom: 140px;
 }
 .main .left .upload {
     padding: 4em;
@@ -50,7 +65,20 @@ html, body{
     padding-top: 21px;
     margin-left: 3em;
     width: 70%;
+    margin-top: -90px;
 }
+
+/*Survey/questionaire/button manipulation*/
+.main .left #python-form .survey{
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+.main .left #python-form .survey #question{
+    background-color: lightcoral;
+    padding: 2em;
+}
+
 
 .main .right{
     background-color: lightgreen;
