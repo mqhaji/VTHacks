@@ -18,7 +18,7 @@ blah blah blah
 
 
 > [!NOTE]
-> How to use:
+> How to use: 
 
 >[!IMPORTANT]
 > An OpenAI API key is required to run the program
