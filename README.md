@@ -43,18 +43,18 @@ The lack of workforce diversity in the technology sector of the U.S.
 |Benefits Listed|Ommitting Benefits|
 
 ### _What makes our project standout_
-a lot of people just started using chatpgt 
-- [x] we have this
-- [x] we have this
-- [x] and 
+A lot of people don't know how to fully utilize gpt so our project gives them *questionnaires(details/description) to help build the right prompt that specifically solve the problem that were focusing on.
 
-### _What did you learn?_
-- Front-End Development
+
+### _What did we learn?_
+```diff
+@@ Front-End Development @@
   - jkewn
-* jnfkewnkfjw
+@@ jnfkewnkfjw @@
   - ejnfkwefew
-+ njkewnf
+@@ njkewnf @@
   - fuweijnfew
+```
 
 ##### CREDITS
 [Spectrabot Icon](https://www.vecteezy.com/free-vector/robot)
