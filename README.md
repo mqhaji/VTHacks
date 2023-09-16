@@ -46,3 +46,8 @@ The lack of workforce diversity in the technology sector of the U.S.
 - [x] and 
 
 ### _What did you learn?_
+
+##### CREDITS
+[Spectrabot Icon](<a href="https://www.vecteezy.com/free-vector/robot">Robot Vectors by Vecteezy</a>)
+
+
