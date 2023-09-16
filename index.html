@@ -9,10 +9,10 @@
 <body>
     <div class="main">
         <div class="left">
-            <div class="input">
+            <div id="input">
                 <p>Add text below:</p>
                 <input type="text" id="textInput" placeholder="Enter Username">
-                <input type="button" id="btn" value="click me">
+                <button type="submit">Submit</button>
             </div>
             <div class="upload">
                 <button>Upload</button>
@@ -20,21 +20,10 @@
         </div>
 
         <div class="right">
-            <p class="output" id="response"></p>
+            <textarea id="response" readonly></textarea>
         </div>
     </div>
 
-    <script>
-        const textInput = document.getElementById('textInput');
-        const button = document.getElementById('btn');
-        const output = document.getElementById('response');
-
-        function displayTextInput(){
-            output.innerHTML = textInput.value;
-        }
-
-        button.addEventListener('click', displayTextInput);
-
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

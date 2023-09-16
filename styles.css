@@ -35,7 +35,7 @@ html, body{
     background-color: purple;
 }
 
-.main .left .input {
+.main .left #input {
     background-color: green;
     padding: 4em;
     text-align: center;
@@ -50,7 +50,7 @@ html, body{
     justify-content: center;
     align-items: center;
 }
-.main .right p{
+.main .right textarea{
     background-color: yellow;
     padding: 10em;
     padding-left: 20em;
