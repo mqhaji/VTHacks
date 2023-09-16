@@ -17,14 +17,14 @@ html, body{
 }
 
 .main .left{
-    height: 30em;
+    height: 32em;
     width: 25em;
     border-top-left-radius: 70px;
     border-bottom-left-radius: 70px;
-    background-color: red;
+    background-color: lightsalmon;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .main .right{
@@ -32,17 +32,24 @@ html, body{
     border-bottom-right-radius: 70px;
     height: 30em;
     width: 50em;
-    background-color: purple;
+    /*background-color: purple;*/
 }
 
 .main .left #input {
-    background-color: green;
     padding: 4em;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: larger;
+    color: #888888;
 }
 .main .left .upload {
     padding: 4em;
-    background-color: yellow;
+}
+.main .left .upload img{
+    padding-top: 21px;
+    margin-left: 3em;
+    width: 70%;
 }
 
 .main .right{
@@ -51,9 +58,11 @@ html, body{
     align-items: center;
 }
 .main .right textarea{
-    background-color: yellow;
-    padding: 10em;
+    /*background-color: yellow;*/
+    padding: 15em;
     padding-left: 20em;
     padding-right: 20em;
+    border: solid black 10px;
+    border-style: groove;
 }
 
