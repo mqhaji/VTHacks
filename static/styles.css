@@ -1,5 +1,5 @@
 html, body{
-    background-image: url(./images/background1.jpg);
+    background-image: url(beach.jpg);
 }
 
 .main {
@@ -35,7 +35,7 @@ html, body{
     /*background-color: purple;*/
 }
 
-.main .left #input {
+.main .left #python-form {
     padding: 4em;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -53,18 +53,18 @@ html, body{
 }
 
 .main .right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.main .right #output{
-    /*background-color: yellow;*/
-    padding: 15em;
-    padding-left: 20em;
-    padding-right: 20em;
+    background-color: lightgreen;
     border: solid black 10px;
     border-style: groove;
     border-top-right-radius: 70px;
     border-bottom-right-radius: 70px;
+    overflow-y: auto; 
+}
+
+.right #output {
+    padding: 10px;
+    overflow-y: auto;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

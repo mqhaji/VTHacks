@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./templates/styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <title>VTHACKS</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
                 <button type="button" onclick="runPythonScript()">Submit</button>
             </form>
             <div class="upload">
-                <img src="./images/deer.png">
+                <img src="{{ url_for('static', filename='deer.png') }}" alt="Deer Image">
                 <!--<button>Upload</button>-->
             </div>
         </div>
