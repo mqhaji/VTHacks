@@ -3,7 +3,7 @@
 </h1>
 
 <h3 style align = "center";"> 
-  :woman_technologist:DEI CONSULTANT:technologist:
+  :woman_technologist:Spectrabot:technologist:
 </h3>
 <h3 style align = "center";"> 
   TEAM NAME
@@ -14,7 +14,7 @@
 </p>
 
 ### Description:
-blah blah blah
+Spectrabot is blah blah blah
 
 
 > [!NOTE]
@@ -24,12 +24,10 @@ blah blah blah
 > An OpenAI API key is required to run the program
 
 ### _What was our motivation?_ 
-We were inspired by our own experiences as minorities in tech. After experiencing first-hand the lack of exposure 
-22% of tech workers are ethnic minorities in the U.S. 
-25% of black computer science students don't know anyone in Big Tech
+We were inspired by the DEI Program Action Team and our personal experiences as minorities in tech. In the U.S., 22% of tech workers are ethnic minorities and 25% of black computer science students don't know anyone in Big Tech. After experiencing the lack of exposure regarding minorities in tech first-hand, we sought out to help reduce the diversity, equity, and inclusion disparity.
 
-### _Why did we build this project?_
-buisness job listing inclusive
+### _Why did we create Spectrabot?_
+We built Spectrabot so that employers could ensure job listings that are inclusive and attract a diverse pool of candidates.  
 
 ### _What problem does it solve?_
 The lack of workforce diversity in the technology sector of the U.S. 
@@ -45,6 +43,6 @@ The lack of workforce diversity in the technology sector of the U.S.
 ### _What makes our project standout_
 - [x] we have this
 - [x] we have this
-- [x] and this
+- [x] and 
 
 ### _What did you learn?_
