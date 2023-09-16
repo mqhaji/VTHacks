@@ -39,11 +39,7 @@ The lack of workforce diversity in the U.S. technology sector
 |:----------:|:--------------:|
 |Gender-neutral|Gendered language|
 |Skill based|Unnecessary Qualifications|
-|Flexible work-options|
-
-- [x] Gender-neutral                 
-- [x] Skill based reqirements
-- [x] Flexible work options
+|Flexible work-options| | 
 
 ### _What makes our project standout_
 - [x] we have this
