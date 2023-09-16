@@ -49,6 +49,12 @@ a lot of people just started using chatpgt
 - [x] and 
 
 ### _What did you learn?_
+- Front-End Development
+  - jkewn
+* jnfkewnkfjw
+  - ejnfkwefew
++ njkewnf
+  - fuweijnfew
 
 ##### CREDITS
 [Spectrabot Icon](https://www.vecteezy.com/free-vector/robot)
