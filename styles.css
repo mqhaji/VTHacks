@@ -1,0 +1,59 @@
+html, body{
+    background-image: url(./images/background1.jpg);
+}
+
+.main {
+    height: 35em;
+    width: 80em;
+    background-color: rgb(255, 254, 227);
+    margin: auto;
+    margin-top: 5em;
+    border: solid orange 10px;
+    border-radius: 70px;
+    box-shadow: 10px 15px #888888;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main .left{
+    height: 30em;
+    width: 25em;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.main .right{
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    height: 30em;
+    width: 50em;
+    background-color: purple;
+}
+
+.main .left .input {
+    background-color: green;
+    padding: 4em;
+    text-align: center;
+}
+.main .left .upload {
+    padding: 4em;
+    background-color: yellow;
+}
+
+.main .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .right p{
+    background-color: yellow;
+    padding: 10em;
+    padding-left: 20em;
+    padding-right: 20em;
+}
+
