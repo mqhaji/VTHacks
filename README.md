@@ -1,13 +1,13 @@
 <h1 style align = "center";">
-  :zap:VTHacks:zap:
+  :woman_technologist:VTHacks:technologist:
 </h1>
 
-<h3 style align = "center";"> 
-  :woman_technologist:Spectrabot:technologist:
+<h2 style align = "center";"> 
+  :rocket:Spectrabot:rocket:
 </h3>
-<h3 style align = "center";"> 
-  ![vecteezy_robot-chatbot-icon-sign_4996790](https://github.com/mqhaji/VTHacks/assets/140469791/23e28b69-1035-4ffc-aa4b-ea1dbcd867b2)
-</h3>
+<p align = "center"> 
+ :zap: <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/f229c931-5f8f-4ed0-b09c-56caca2d4142" width="100" height="100"> :zap:
+</p>
 <h3 style align = "center";"> 
   TEAM NAME
 </h3>
@@ -17,8 +17,7 @@
 </p>
 
 ### Description:
-Spectrabot is blah blah blah
-
+Spectrabot is blah blah
 
 > [!NOTE]
 > How to use: 
@@ -44,6 +43,7 @@ The lack of workforce diversity in the technology sector of the U.S.
 |Benefits Listed|Ommitting Benefits|
 
 ### _What makes our project standout_
+a lot of people just started using chatpgt 
 - [x] we have this
 - [x] we have this
 - [x] and 
