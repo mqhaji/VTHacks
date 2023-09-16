@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python Script Runner</title>
+</head>
+<body>
+    <h1>Run Python Script</h1>
+    <form id="python-form">
+        <input type="text" id="user-input" placeholder="Enter your message">
+        <button type="button" onclick="runPythonScript()">Submit</button>
+    </form>
+    <div id="output"></div>
+
+    <script>
+        function runPythonScript() {
+            var userInput = document.getElementById('user-input').value;
+            var formData = new FormData();
+            formData.append('user_input', userInput);
+
+            fetch('/run_python', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                var outputDiv = document.getElementById('output');
+                outputDiv.textContent = "ChatGPT: " + data.response;
+            });
+        }
+    </script>
+</body>
+</html>
