@@ -1,10 +1,11 @@
 from flask import Flask, request, jsonify, render_template
 import openai
+import sys  # for command line arguments
 
 app = Flask(__name__)
 
 # openai api key
-openai.api_key = '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'
+openai.api_key = str(sys.argv[1])
 
 @app.route('/')
 def index():
@@ -20,7 +21,7 @@ def run_python():
 
     chat = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=messages)
     assistant_reply = chat.choices[0].message.content
-
+    
     return jsonify({"response": assistant_reply})
 
 if __name__ == '__main__':
