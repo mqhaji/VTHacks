@@ -45,23 +45,29 @@ Spectrabot hopes to improve the diversity in the U.S. by increasing accessibilit
 |Straightforward Language|Technical Jargon|
 |Benefits Listed|Ommitting Benefits|
 
+### _What challenges did we face?_ :boxing_glove:
+```diff
+- Integration 
+  - We struggled when it came time to integrate the api with the front-end using flask.
+- Rending Webpage
+  - We encountered many small issues when rendering the webpage.
+```
 ### _What did we learn?_
 ```diff
-@@ API @@
-  - jkewn
-@@ Front-End Devlopment @@
-  - ejnfkwefew
+@@ Advanced HTML Formatting @@
+  - We managed to get the website to look well put and clean.
+@@ OpenAI API Implementation @@
+  - We used python scripts to implement the API.
 @@ Flask @@
-  - fuweijnfew
+  - Flask was vital in integrating the API with the front-end.
 ```
 ### _What could we improve?_
 ```diff
-@@ API @@
-  - jkewn
-@@ Front-End Devlopment @@
-  - ejnfkwefew
-@@ Flask @@
-  - fuweijnfew
++ The Ideal
+  - We wanted to create our own AI, but with the timeframe given,
+    we managed to achieve a usable webpage utilizing OpenAI. Our
+    AI would have provided more structured and user-specific feedback.
+    The website could also be a little more polished. 
 ```
 
 ##### CREDITS
