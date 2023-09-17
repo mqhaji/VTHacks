@@ -12,8 +12,8 @@
  :zap: WE ARE THE SPECTRABOTS :zap:
 </h3>
 
-<p align = "center" >
-  Team Members: Musa Haji, Emil Baez, Sammy Fischer, Krisanny Salazar
+<p style align = "center";">
+ <strong>Team Members:</strong> Musa Haji, Emil Baez, Sammy Fischer, Krisanny Salazar
 </p>
 
 ### Description:
