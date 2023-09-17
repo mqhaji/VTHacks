@@ -6,11 +6,11 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
+    /> <!-- reference to materialize css -->
     <link
       rel="stylesheet"
-      href="{{ url_for('static', filename='styles.css') }}"
-    />
+      href="{{ url_for('static', filename='styles.css') }}" 
+    /> <!-- reference to css style sheet-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <title>Job Listing DEI Analyzer</title>
     <style>
@@ -79,6 +79,7 @@
                     </div>
                   </div>
                 </div>
+                <!-- End circular preloader -->
               <div class="output-content">
                 <div id="output"></div>
               </div>
