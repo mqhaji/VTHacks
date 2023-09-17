@@ -55,8 +55,11 @@
                     id="textInput"
                     class="materialize-textarea scrollable-textarea"
                     placeholder="Enter Job Listing"
+                    oninput="updateWordCount()"
+                    maxlength="8000"
                   ></textarea>
                 </div>
+                <p id="wordCount">Word Count: 0</p> <!-- Display word count here -->
                 <button
                   class="btn waves-effect waves-light blue-grey darken-3"
                   type="button"
@@ -98,18 +101,29 @@
     </div>
 
     <script>
+      function updateWordCount() {
+        var textInput = document.getElementById("textInput");
+        var wordCount = textInput.value.trim().split(/\s+/).length;
+        document.getElementById("wordCount").textContent = "Word Count: " + wordCount;
+      }
 
       function runPythonScript() {
-        var apiKey = document.getElementById("apiKeyInput").value;  // Get the API key
+        var apiKey = document.getElementById("apiKeyInput").value; // Get the API key
         var userInput = document.getElementById("textInput").value;
         var formData = new FormData();
-        formData.append("api_key", apiKey);  // Add API key to the FormData
+        formData.append("api_key", apiKey); // Add API key to the FormData
         formData.append("user_input", userInput);
-      
+
+        // Check text length before submitting
+        if (userInput.length > 8000) {
+          alert("Text input exceeds the 8000 character limit.");
+          return;
+        }
+
         // Show the preloader only after the first request is sent
         var preloader = document.getElementById("preloader");
         preloader.style.display = "block";
-      
+
         fetch("/run_python", {
           method: "POST",
           body: formData,
@@ -118,10 +132,10 @@
           .then((data) => {
             var outputDiv = document.getElementById("output");
             outputDiv.textContent = "ChatGPT: " + data.response;
-      
+
             // Hide the preloader when the response is received
             preloader.style.display = "none";
-      
+
             // Display the output div
             outputDiv.style.display = "block";
           });
