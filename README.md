@@ -9,7 +9,7 @@
 </p>
 
 <h3 style align = "center";"> 
- :zap: TEAM NAME :zap:
+ :zap: WE ARE THE SPECTRABOTS :zap:
 </h3>
 
 <p align = "center" >
