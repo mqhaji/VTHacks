@@ -17,9 +17,8 @@
 </p>
 
 ### Description:
-Spectrabot is an online DEI consultant suited for 
+Spectrabot is an online DEI (Diversity, Equity, and Inclusion) consultant powered by OpenAI, designed to optimize inclusivity in job listings. The AI model targets businesses that want to emphasize diversity in their company culture. Employers can easily submit a draft of their job listing to Spectrabot, which then generates recommendations that enhance the job listing, making it more inclusive and appealing to a diverse range of potential candidates. 
 
-You post a job listing and the AI will provide ways to improve it to become more inclusive. 
 
 > [!NOTE]
 > How to use: 
@@ -50,6 +49,15 @@ Spectrabot
 gives them *questionnaires(details/description) to help build the right prompt that specifically solve the problem that were focusing on.
 
 ### _What did we learn?_
+```diff
+@@ API @@
+  - jkewn
+@@ Front-End Devlopment @@
+  - ejnfkwefew
+@@ Flask @@
+  - fuweijnfew
+```
+### _What could we improve?_
 ```diff
 @@ API @@
   - jkewn
