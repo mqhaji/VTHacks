@@ -26,7 +26,7 @@ Spectrabot is an online DEI (Diversity, Equity, and Inclusion) consultant powere
 > An OpenAI API key is required to run the program
 
 ### _What makes our project standout_
-What sets Spectrabot apart from ChatGPT and other AI models is its specialized focus on growing and maintaining inclusivity in the workforce. Many people are unaware of ChatGPT's full potential due to the challenge of envisioning it's endless possibilities. Spectrabot, on the other hand, is intentionally designed and advertised to enhance DEI. In doing so, it raises more awareness to the necessity of inclusivity in the workforce staring from the very beginning of the hiring process. 
+What sets Spectrabot apart from ChatGPT and other AI models is its specialized focus on growing and maintaining inclusivity in the workforce. Many people are unaware of ChatGPT's full potential due to the challenge of envisioning its endless possibilities. Spectrabot, on the other hand, is intentionally designed and advertised to enhance DEI. In doing so, it raises more awareness of the necessity of inclusivity in the workforce starting from the very beginning of the hiring process.
 
 ### _What was our motivation?_ 
 We were inspired by the DEI Program Action Team and our personal experiences as minorities in tech. In the U.S., 22% of tech workers are ethnic minorities and 25% of black computer science students don't know anyone in Big Tech. After experiencing the lack of exposure regarding minorities in tech first-hand, we sought out to help reduce the diversity, equity, and inclusion disparity.
