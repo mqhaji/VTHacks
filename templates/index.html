@@ -6,11 +6,13 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    /> <!-- reference to materialize css -->
+    />
+    <!-- reference to materialize css -->
     <link
       rel="stylesheet"
-      href="{{ url_for('static', filename='styles.css') }}" 
-    /> <!-- reference to css style sheet-->
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+    <!-- reference to css style sheet-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <title>Job Listing DEI Analyzer</title>
     <style>
@@ -59,7 +61,8 @@
                     maxlength="8000"
                   ></textarea>
                 </div>
-                <p id="wordCount">Word Count: 0</p> <!-- Display word count here -->
+                <p id="wordCount">Word Count: 0</p>
+                <!-- Display word count here -->
                 <button
                   class="btn waves-effect waves-light blue-grey darken-3"
                   type="button"
@@ -77,20 +80,20 @@
             <div class="card-content white-text">
               <span class="card-title">Response</span>
               <!-- Circular preloader -->
-                <div class="preloader-wrapper small active" id="preloader">
-                  <div class="spinner-layer spinner-blue-only">
-                    <div class="circle-clipper left">
-                      <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                      <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                      <div class="circle"></div>
-                    </div>
+              <div class="preloader-wrapper small active" id="preloader">
+                <div class="spinner-layer spinner-blue-only">
+                  <div class="circle-clipper left">
+                    <div class="circle"></div>
+                  </div>
+                  <div class="gap-patch">
+                    <div class="circle"></div>
+                  </div>
+                  <div class="circle-clipper right">
+                    <div class="circle"></div>
                   </div>
                 </div>
-                <!-- End circular preloader -->
+              </div>
+              <!-- End circular preloader -->
               <div class="output-content">
                 <div id="output"></div>
               </div>
@@ -104,7 +107,8 @@
       function updateWordCount() {
         var textInput = document.getElementById("textInput");
         var wordCount = textInput.value.trim().split(/\s+/).length;
-        document.getElementById("wordCount").textContent = "Word Count: " + wordCount;
+        document.getElementById("wordCount").textContent =
+          "Word Count: " + wordCount;
       }
 
       function runPythonScript() {
