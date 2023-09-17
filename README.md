@@ -1,8 +1,9 @@
 <h1 style align = "center";">
-  :woman_technologist:VTHacks:technologist:
+  :woman_technologist:VTHacks:woman_technologist:
+  
 </h1>
 <h1 style align = "center";"> 
-  Spectrabot  <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/ab030c4f-6a80-4f67-ae5a-49c1795b7d22" width="20" height="20"> 
+  <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/ab030c4f-6a80-4f67-ae5a-49c1795b7d22" width="20" height="20">  Spectrabot  :robot:
 </h1>
 <p align = "center"> 
  <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/c743497a-fce5-4004-b52a-8081ef849f72" width="550" height="300"> 
@@ -53,7 +54,7 @@ Spectrabot hopes to improve the diversity in the U.S. by increasing accessibilit
 - Rending Webpage
   - We encountered many small issues when rendering the webpage.
 ```
-### _What did we learn?_
+### _What did we learn?_ 
 ```diff
 @@ Advanced HTML Formatting @@
   - We managed to get the website to look well put and clean.
