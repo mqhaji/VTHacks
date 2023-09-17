@@ -1,18 +1,16 @@
 <h1 style align = "center";">
   :woman_technologist:VTHacks:technologist:
 </h1>
+<h1 style align = "center";"> 
+  Spectrabot  <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/ab030c4f-6a80-4f67-ae5a-49c1795b7d22" width="20" height="20"> 
+</h1>
+<p align = "center"> 
+ <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/27b18358-f205-4ebd-b87b-cfcd2b0065b7" width="550" height="300"> 
+</p>
 
-<p align = "center"> 
- <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/27b18358-f205-4ebd-b87b-cfcd2b0065b7" width="600" height="300"> 
-</p>
-<h2 style align = "center";"> 
-  :rocket:Spectrabot:rocket:
-</h3>
-<p align = "center"> 
- :zap: <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/f229c931-5f8f-4ed0-b09c-56caca2d4142" width="100" height="100"> :zap:
-</p>
+
 <h3 style align = "center";"> 
-  TEAM NAME
+ :zap: TEAM NAME :zap:
 </h3>
 
 <p align = "center" >
@@ -50,20 +48,16 @@ A lot of people don't know how to utilize ChatGPT to the fullest.
 Spectrabot 
 gives them *questionnaires(details/description) to help build the right prompt that specifically solve the problem that were focusing on.
 
-
 ### _What did we learn?_
 ```diff
 @@ API @@
   - jkewn
 @@ Front-End Devlopment @@
   - ejnfkwefew
-@@ njkewnf @@
+@@ Flask @@
   - fuweijnfew
 ```
 
 ##### CREDITS
-[Spectrabot Icon](https://www.vecteezy.com/free-vector/robot)
-[SpaceVector](https://www.vecteezy.com/free-vector/space)
-
-
-
+[Spectrabot Icon](https://www.vecteezy.com/free-vector/robot) <br>
+[SpaceVector](https://www.cleanpng.com/png-globe-computer-icons-clip-art-earth-vector-868472/)
