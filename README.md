@@ -35,7 +35,7 @@ We were inspired by the DEI Program Action Team and our personal experiences as 
 We built Spectrabot so that employers could ensure their job listings are inclusive and appealing to a diverse pool of candidates.  
 
 ### _What problem does it solve?_
-Spectrabot hopes to improve the lack of workforce diversity in the technology sector of the U.S. by making inclusivity more accessible.
+Spectrabot hopes to improve the diversity in the U.S. by increasing accessibility to inclusivity. 
 
 ### _What makes a job listing inclusive?_  
 | Inclusive | Non-Inclusive |
