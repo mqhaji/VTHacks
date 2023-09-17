@@ -1,2 +1,0 @@
-# VTHacks
-Our VTHacks Project
