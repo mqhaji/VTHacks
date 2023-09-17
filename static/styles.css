@@ -44,7 +44,7 @@ body {
   }
 
 .input-field #textInput{
-    max-height: 22em;
+    max-height: 17em;
 } /* contain text input within the container*/
 
 #apiKeyInput{
@@ -54,4 +54,7 @@ body {
 #output{
     padding: 1em;
 }
-
+#wordCount{
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
