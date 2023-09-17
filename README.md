@@ -30,7 +30,7 @@ Spectrabot is an online DEI (Diversity, Equity, and Inclusion) consultant powere
 >```
 > pip install -r requirements.txt
 >```
-> Run the app.py file, this will open a server with a clickable http link. Once the webpage is open, copy and paste your API key into the top left text box <br> 
+> Run the app.py file, this will open a locally hosted server that'll automatically open the webpage. Once the webpage is open, copy and paste your API key into the top left text box <br> 
 > **How to use:** Simply copy and paste your job listing into the bottom left text box, and wait patiently for Spectrabot to provide you with a response.
 
 >[!IMPORTANT]
