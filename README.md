@@ -3,10 +3,10 @@
   
 </h1>
 <h1 style align = "center";"> 
-  <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/ab030c4f-6a80-4f67-ae5a-49c1795b7d22" width="20" height="20">  Spectrabot  :robot:
+  <img src= "https://github.com/mqhaji/VTHacks/blob/main/static/earth-planet-free-content-clip-art-png-favpng-JW2LTqw7vQ6seeLu5kt6xSqDq.jpg?raw=true"width="20" height="20">  Spectrabot  :robot:
 </h1>
 <p align = "center"> 
- <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/c743497a-fce5-4004-b52a-8081ef849f72" width="550" height="300"> 
+ <img src= "https://github.com/mqhaji/VTHacks/blob/main/static/rocketspace%20(2).jpg?raw=true" width="550" height="300"> 
 </p>
 
 <h3 style align = "center";"> 
@@ -78,7 +78,7 @@ Spectrabot hopes to improve the diversity in the U.S. by increasing accessibilit
 <h2 style align = "center";"> 
   THANK YOU <br>
   Sincerely, Spectrabot Team  <br>
-  <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/be49b0a8-2532-491c-b1e0-840065f12e26" width="60" height="60"> 
+  <img src= "https://github.com/mqhaji/VTHacks/blob/main/static/Spectrabot.png?raw=true" width="70" height="70"> 
 </h2>
 
 ##### CREDITS
