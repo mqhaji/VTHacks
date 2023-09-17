@@ -26,14 +26,17 @@ Spectrabot is an online DEI (Diversity, Equity, and Inclusion) consultant powere
 >[!IMPORTANT]
 > An OpenAI API key is required to run the program
 
+### _What makes our project standout_
+What sets Spectrabot apart from ChatGPT and other AI models is its specialized focus on growing and maintaining inclusivity in the workforce. Many people are unaware of ChatGPT's full potential due to the challenge of envisioning it's endless possibilities. Spectrabot, on the other hand, is intentionally designed and advertised to enhance DEI. In doing so, it raises more awareness to the necessity of inclusivity in the workforce staring from the very beginning of the hiring process. 
+
 ### _What was our motivation?_ 
 We were inspired by the DEI Program Action Team and our personal experiences as minorities in tech. In the U.S., 22% of tech workers are ethnic minorities and 25% of black computer science students don't know anyone in Big Tech. After experiencing the lack of exposure regarding minorities in tech first-hand, we sought out to help reduce the diversity, equity, and inclusion disparity.
 
 ### _Why did we create Spectrabot?_
-We built Spectrabot so that employers could ensure job listings that are inclusive and attract a diverse pool of candidates.  
+We built Spectrabot so that employers could ensure their job listings are inclusive and appealing to a diverse pool of candidates.  
 
 ### _What problem does it solve?_
-The lack of workforce diversity in the technology sector of the U.S. 
+Spectrabot hopes to improve the lack of workforce diversity in the technology sector of the U.S. by making inclusivity more accessible.
 
 ### _What makes a job listing inclusive?_  
 | Inclusive | Non-Inclusive |
@@ -42,11 +45,6 @@ The lack of workforce diversity in the technology sector of the U.S.
 |Skill-based|Unnecessary Qualifications|
 |Straightforward Language|Technical Jargon|
 |Benefits Listed|Ommitting Benefits|
-
-### _What makes our project standout_
-A lot of people don't know how to utilize ChatGPT to the fullest.
-Spectrabot 
-gives them *questionnaires(details/description) to help build the right prompt that specifically solve the problem that were focusing on.
 
 ### _What did we learn?_
 ```diff
