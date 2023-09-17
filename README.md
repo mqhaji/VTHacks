@@ -20,8 +20,8 @@
 Spectrabot is an online DEI (Diversity, Equity, and Inclusion) consultant powered by OpenAI, designed to optimize inclusivity in job listings. The AI model targets businesses that want to emphasize diversity in their company culture. Employers can easily submit a draft of their job listing to Spectrabot, which then generates recommendations that enhance the job listing, making it more inclusive and appealing to a diverse range of potential candidates. 
 
 > [!NOTE]
-> **How to run:** Clone repository onto your local computer and run the app.py file, this will open a server with a clickable http link. Click on the link to open the webpage. <br> 
-> **How to use:** Simply copy and paste your job listing into the text box and wait patiently for Spectrabot to provide you with a response.
+> **How to run:** Clone repository onto your local computer and run the app.py file by typing 'python app.py [YOUR_API_KEY]', this will open a server with a clickable http link. Click on the link to open the webpage. Once the webpage is open, copy and paste your API key into the top right text box <br> 
+> **How to use:** Simply copy and paste your job listing into the bottom left text box, and wait patiently for Spectrabot to provide you with a response.
 
 >[!IMPORTANT]
 > An OpenAI API key is required to run the program
@@ -65,10 +65,13 @@ Spectrabot hopes to improve the diversity in the U.S. by increasing accessibilit
 ### _What could we improve?_
 ```diff
 + The Ideal
-  - We wanted to create our own AI, but with the timeframe given,
-    we managed to achieve a usable webpage utilizing OpenAI. Our
-    AI would have provided more structured and user-specific feedback.
-    The website could also be a little more polished. 
+  - We wanted to develop our own AI, but given the timeframe, we 
+    managed to achieve a usable webpage utilizing OpenAI. Our AI
+    would have provided more structured and user-specific feedback.
+    Additionally, considering our usage of OpenAI, we would have preferred
+    to implement a method that allows users to link their ChatGPT
+    account to avoid pasting an AI key. And the website could also be a
+    little more polished. 
 ```
 
 <h2 style align = "center";"> 
