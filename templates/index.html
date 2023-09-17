@@ -33,7 +33,6 @@
         </a>
       </div>
     </nav>
-
     <div class="container">
       <div class="row">
         <!-- Input Card -->
@@ -76,20 +75,10 @@
     </div>
 
     <script>
-
-      var firstRequestSent = false;
-
       function runPythonScript() {
         var userInput = document.getElementById("textInput").value;
         var formData = new FormData();
         formData.append("user_input", userInput);
-
-        // Show the preloader only after the first request is sent
-        if (!firstRequestSent) {
-          var preloader = document.getElementById("preloader");
-          preloader.style.display = "block";
-          firstRequestSent = true; // Set the flag to true after the first request
-        }
 
         fetch("/run_python", {
           method: "POST",
@@ -99,12 +88,6 @@
           .then((data) => {
             var outputDiv = document.getElementById("output");
             outputDiv.textContent = "ChatGPT: " + data.response;
-
-            // Hide the preloader when the response is received
-            preloader.style.display = "none";
-
-            // Display the output div
-            outputDiv.style.display = "block";
           });
       }
     </script>
