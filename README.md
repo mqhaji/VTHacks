@@ -21,7 +21,7 @@ Spectrabot is an online DEI (Diversity, Equity, and Inclusion) consultant powere
 
 > [!NOTE]
 > **How to use:** Simply copy and paste your job listing into the text box and wait patiently for Spectrabot to provide you with a response.<br>
-> **How to run:** Clone repository onto you local computer and run the app.py file, this will open a server with a clickable http link. Click on the link to open the webpage.
+> **How to run:** Clone repository onto your local computer and run the app.py file, this will open a server with a clickable http link. Click on the link to open the webpage.
 
 >[!IMPORTANT]
 > An OpenAI API key is required to run the program
