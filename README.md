@@ -26,7 +26,7 @@ Spectrabot is an online DEI (Diversity, Equity, and Inclusion) consultant powere
 
 > [!NOTE]
 > **How to run:** Clone repository onto your local computer.
-> Enter:
+> <br> Enter:
 >```
 > pip install -r requirements.txt
 >```
