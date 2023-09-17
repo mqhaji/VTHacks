@@ -14,7 +14,11 @@
 </h3>
 
 <p style align = "center";">
- <strong>Team Members:</strong> Musa Haji, Emil Baez, Sammy Fischer, Krisanny Salazar
+ <strong>Team Members:</strong>
+  <br> Musa Haji: www.linkedin.com/in/musa-haji-38722826b
+  <br> Emil Baez: www.linkedin.com/in/emil-baez-salazar
+  <br> Sammy Fischer: https://www.linkedin.com/in/sammy-fischer-89ab55291/
+  <br> Krisanny Salazar: www.linkedin.com/in/krisanny-salazar-56547622a
 </p>
 
 ### Description:
