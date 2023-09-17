@@ -1,0 +1,3 @@
+openai==0.28.0
+Flask==2.3.3
+Werkzeug==2.3.7

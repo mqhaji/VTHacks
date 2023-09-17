@@ -14,7 +14,10 @@ def index():
 @app.route('/run_python', methods=['POST'])
 def run_python():
     api_key = request.form.get('api_key')  # Get the API key from the form
-    user_input = request.form.get('user_input')
+    user_input = "You are a diversity and inclusion consultant.\n"
+    user_input += "Please evaluate our job listing for the given job position and provide feedback on how to make it more inclusive.\n"
+    user_input += request.form.get('user_input')
+    print(user_input)
 
     # Set the API key for OpenAI
     openai.api_key = api_key
