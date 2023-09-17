@@ -42,6 +42,14 @@
               <span class="card-title">Input Job Listing</span>
               <form id="python-form">
                 <div class="input-field">
+                  <input
+                    type="password"
+                    id="apiKeyInput"
+                    placeholder="Enter OpenAI API Key"
+                  />
+                  <label for="apiKeyInput">API Key:</label>
+                </div>
+                <div class="input-field">
                   <!-- Replaced input with textarea -->
                   <textarea
                     id="textInput"
@@ -92,14 +100,16 @@
     <script>
 
       function runPythonScript() {
+        var apiKey = document.getElementById("apiKeyInput").value;  // Get the API key
         var userInput = document.getElementById("textInput").value;
         var formData = new FormData();
+        formData.append("api_key", apiKey);  // Add API key to the FormData
         formData.append("user_input", userInput);
-
+      
         // Show the preloader only after the first request is sent
         var preloader = document.getElementById("preloader");
         preloader.style.display = "block";
-
+      
         fetch("/run_python", {
           method: "POST",
           body: formData,
@@ -108,10 +118,10 @@
           .then((data) => {
             var outputDiv = document.getElementById("output");
             outputDiv.textContent = "ChatGPT: " + data.response;
-
+      
             // Hide the preloader when the response is received
             preloader.style.display = "none";
-
+      
             // Display the output div
             outputDiv.style.display = "block";
           });

@@ -46,3 +46,9 @@ body {
 .input-field #textInput{
     max-height: 22em;
 } /* contain text input within the container*/
+
+#apiKeyInput{
+    color: white;
+}
+
+
