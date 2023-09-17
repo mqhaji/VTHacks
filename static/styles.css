@@ -25,3 +25,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-y: auto !important; /* Enable vertical scrolling */
 }
+
+.input-field #textInput{
+    overflow-y: auto;
+}
