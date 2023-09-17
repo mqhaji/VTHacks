@@ -5,9 +5,8 @@
   Spectrabot  <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/ab030c4f-6a80-4f67-ae5a-49c1795b7d22" width="20" height="20"> 
 </h1>
 <p align = "center"> 
- <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/27b18358-f205-4ebd-b87b-cfcd2b0065b7" width="550" height="300"> 
+ <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/c743497a-fce5-4004-b52a-8081ef849f72" width="550" height="300"> 
 </p>
-
 
 <h3 style align = "center";"> 
  :zap: TEAM NAME :zap:
@@ -18,7 +17,9 @@
 </p>
 
 ### Description:
-Spectrabot is blah blah
+Spectrabot is an online DEI consultant suited for 
+
+You post a job listing and the AI will provide ways to improve it to become more inclusive. 
 
 > [!NOTE]
 > How to use: 
