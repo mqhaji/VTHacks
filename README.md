@@ -77,7 +77,7 @@ Spectrabot hopes to improve the diversity in the U.S. by increasing accessibilit
   <img src= "https://github.com/mqhaji/VTHacks/assets/140469791/be49b0a8-2532-491c-b1e0-840065f12e26" width="60" height="60"> 
 </h2>
 
-
 ##### CREDITS
 [Spectrabot Icon](https://www.vecteezy.com/free-vector/robot) <br>
 [SpaceVector](https://www.cleanpng.com/png-globe-computer-icons-clip-art-earth-vector-868472/)
+
