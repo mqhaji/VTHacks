@@ -1,31 +1,44 @@
 body {
-    background-color: #cfd8dc;
+  background-color: #b0bec5;
 }
 
 .container {
-    margin-top: 5em;
+  margin-top: 5em;
 }
 
 .card {
-    border-radius: 10px;
-    box-shadow: 10px 15px #888888;
-    overflow-y: auto !important; /* Enable vertical scrolling */
-    height: 775px; /* Set a maximum height */
-    overflow-y: auto !important; /* Enable vertical scrolling */
+  border-radius: 10px;
+  box-shadow: 10px 15px #888888;
+  height: 70vh;
+  min-height: 500px;
+  padding: 20px;
+}
+
+.card-content {
+  max-height: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content .output-content {
+  overflow-y: auto;
+  flex-grow: 1;
 }
 
 #python-form .input-field {
-    margin-bottom: 20px;
-    overflow-y: auto !important; /* Enable vertical scrolling */
+  margin-bottom: 20px;
 }
 
 .right #output {
-    padding: 10px;
-    font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow-y: auto !important; /* Enable vertical scrolling */
+  padding: 10px;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #cfd8dc;
 }
 
-.input-field #textInput{
-    overflow-y: auto;
+.scrollable-textarea {
+  height: 550px;
+  max-height: 550px;
+  overflow-y: auto !important;
+  color: #cfd8dc;
 }
